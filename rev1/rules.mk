@@ -17,3 +17,5 @@
 # presence of this file is required for QMK to compile it.
 
 UNICODEMAP_ENABLE = yes
+
+COMBO_ENABLE = yes
