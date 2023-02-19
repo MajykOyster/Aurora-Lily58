@@ -103,9 +103,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 	[NumArr] = LAYOUT(
-		FR_LBRC,		FR_RBRC,		FR_7,			FR_8,			FR_9,			KC_PMNS,										KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
+		FR_LCBR,		FR_RCBR,		FR_7,			FR_8,			FR_9,			KC_PMNS,										KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
 		FR_LPRN,		FR_RPRN,		FR_4,			FR_5,			FR_6,			KC_PPLS,										KC_HOME,		KC_NO,			KC_UP,			KC_NO,			KC_PGUP,		KC_NO,
-		FR_LCBR,		FR_RCBR,		FR_1,			FR_2,			FR_3,			KC_PSLS,										KC_END,			KC_LEFT,		KC_DOWN,		KC_RGHT,		KC_PGDN,		KC_NO,
+		FR_LBRC,		FR_RBRC,		FR_1,			FR_2,			FR_3,			KC_PSLS,										KC_END,			KC_LEFT,		KC_DOWN,		KC_RGHT,		KC_PGDN,		KC_NO,
 		KC_TRNS,		X(Percent),		FR_SCLN,		FR_0,			FR_EQL,			KC_PAST,		KC_TRNS,		KC_TRNS,		X(Inf),			X(Sup),			KC_NO,			KC_NO,			KC_NO,			KC_TRNS,
 											KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
 
