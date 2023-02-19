@@ -99,7 +99,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_NO,			FR_A,			FR_Z,			FR_E,			FR_R,			FR_T,											FR_Y,			FR_U,			FR_I,			FR_O,			FR_P,			KC_NO,
 		LT(Mous,KC_ESC),FR_Q,			FR_S,			FR_D,			FR_F,			FR_G,											FR_H,			FR_J,			FR_K,			FR_L,			FR_M,			LT(Media,FR_CIRC),
 		KC_LCTL,		FR_W,			FR_X,			FR_C,			FR_V,			FR_B,			KC_MUTE,		KC_MPLY,		FR_N,			FR_COMM,		FR_SCLN,		FR_COLN,		FR_EXLM,		KC_DEL,
-											KC_LALT,		KC_LGUI,		LSFT_T(KC_TAB),	LT(Fun,KC_ENT),							LT(NumArr,KC_SPC),LT(Unic,KC_BSPC),KC_APP,		KC_RALT),
+												KC_LALT,		KC_LGUI,		LSFT_T(KC_TAB),	LT(Fun,KC_ENT),						LT(NumArr,KC_SPC),LT(Unic,KC_BSPC),KC_APP,		KC_RALT),
 
 
 	[NumArr] = LAYOUT(
@@ -107,7 +107,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		FR_LPRN,		FR_RPRN,		FR_4,			FR_5,			FR_6,			KC_PPLS,										KC_HOME,		KC_NO,			KC_UP,			KC_NO,			KC_PGUP,		KC_NO,
 		FR_LBRC,		FR_RBRC,		FR_1,			FR_2,			FR_3,			KC_PSLS,										KC_END,			KC_LEFT,		KC_DOWN,		KC_RGHT,		KC_PGDN,		KC_NO,
 		KC_TRNS,		X(Percent),		FR_SCLN,		FR_0,			FR_EQL,			KC_PAST,		KC_TRNS,		KC_TRNS,		X(Inf),			X(Sup),			KC_NO,			KC_NO,			KC_NO,			KC_TRNS,
-											KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
+												KC_TRNS,		KC_TRNS,		KC_TRNS,	KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
 
 
 	[Unic] = LAYOUT(
@@ -115,7 +115,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_TRNS,		XP(AGrL,AGrU),	KC_TRNS,		X(E_AcAigU),	X(Registrd),	KC_TRNS,										KC_TRNS,		X(U_AcGr),		KC_TRNS,		XP(OE_L,OE_U),	KC_TRNS,		KC_TRNS,
 		KC_TRNS,		KC_TRNS,		X(Dollar),		KC_TRNS,		KC_TRNS,		KC_TRNS,										KC_TRNS,		KC_TRNS,		KC_TRNS,		X(ArrowR),		X(Micro),		KC_TRNS,
 		KC_TRNS,		KC_TRNS,		KC_TRNS,		XP(CCedL,CCedU),KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS,		X(InvQuest),	KC_TRNS,		KC_TRNS,		X(InvExcl),		KC_TRNS,
-												KC_TRNS,		KC_TRNS,		TO(Gaming), KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
+												KC_TRNS,		KC_TRNS,		TO(Gaming),	KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
 
 	[Fun] = LAYOUT(
 		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,											KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
