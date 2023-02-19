@@ -99,7 +99,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_NO,			FR_A,			FR_Z,			FR_E,			FR_R,			FR_T,											FR_Y,			FR_U,			FR_I,			FR_O,			FR_P,			KC_NO,
 		LSFT_T(KC_ESC),	FR_Q,			FR_S,			FR_D,			FR_F,			FR_G,											FR_H,			FR_J,			FR_K,			FR_L,			FR_M,			LT(Media,FR_CIRC),
 		KC_LCTL,		FR_W,			FR_X,			FR_C,			FR_V,			FR_B,			KC_MUTE,		KC_MPLY,		FR_N,			FR_COMM,		FR_SCLN,		FR_COLN,		FR_EXLM,		KC_DEL,
-											KC_LALT,		KC_LGUI,		LT(Unic,KC_TAB),	LT(Fun,KC_ENT),					LT(NumArr,KC_SPC),LT(Unic,KC_BSPC),KC_APP,		KC_RALT),
+											KC_LALT,		KC_LGUI,		LSFT_T(KC_TAB),	LT(Fun,KC_ENT),							LT(NumArr,KC_SPC),LT(Unic,KC_BSPC),KC_APP,		KC_RALT),
 
 
 	[NumArr] = LAYOUT(
