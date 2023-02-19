@@ -95,57 +95,53 @@ combo_t key_combos[COMBO_COUNT] = {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[Default] = LAYOUT(
-		KC_NO,			FR_AMPR,		FR_EACU,		FR_DQUO,		FR_QUOT,		FR_LPRN,										FR_MINS,		FR_EGRV,		FR_UNDS,		FR_CCED,		FR_AGRV,		KC_NO,
-		KC_NO,			FR_A,			FR_Z,			FR_E,			FR_R,			FR_T,											FR_Y,			FR_U,			FR_I,			FR_O,			FR_P,			KC_NO,
-		LT(Mous,KC_ESC),FR_Q,			FR_S,			FR_D,			FR_F,			FR_G,											FR_H,			FR_J,			FR_K,			FR_L,			FR_M,			LT(Media,FR_CIRC),
-		KC_LCTL,		FR_W,			FR_X,			FR_C,			FR_V,			FR_B,			KC_MUTE,		KC_MPLY,		FR_N,			FR_COMM,		FR_SCLN,		FR_COLN,		FR_EXLM,		KC_DEL,
-												KC_LALT,		KC_LGUI,		LSFT_T(KC_TAB),	LT(Fun,KC_ENT),						LT(NumArr,KC_SPC),LT(Unic,KC_BSPC),KC_APP,		KC_RALT),
-
+		KC_NO,				FR_AMPR,			FR_EACU,			FR_DQUO,			FR_QUOT,			FR_LPRN,										FR_MINS,			FR_EGRV,			FR_UNDS,			FR_CCED,			FR_AGRV,			KC_NO,
+		KC_NO,				FR_A,				FR_Z,				FR_E,				FR_R,				FR_T,											FR_Y,				FR_U,				FR_I,				FR_O,				FR_P,				KC_NO,
+		LT(Mous,KC_ESC),	FR_Q,				FR_S,				FR_D,				FR_F,				FR_G,											FR_H,				FR_J,				FR_K,				FR_L,				FR_M,				LT(Media,FR_CIRC),
+		KC_LCTL,			FR_W,				FR_X,				FR_C,				FR_V,				FR_B,			KC_MUTE,		KC_MPLY,		FR_N,				FR_COMM,			FR_SCLN,			FR_COLN,			FR_EXLM,			KC_DEL,
+														KC_LALT,			KC_LGUI,			LSFT_T(KC_TAB),		LT(Fun,KC_ENT),				LT(NumArr,KC_SPC),		LT(Unic,KC_BSPC),	KC_APP,				KC_RALT),
 
 	[NumArr] = LAYOUT(
-		FR_LCBR,		FR_RCBR,		FR_7,			FR_8,			FR_9,			KC_PMNS,										KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		FR_LPRN,		FR_RPRN,		FR_4,			FR_5,			FR_6,			KC_PPLS,										KC_HOME,		KC_NO,			KC_UP,			KC_NO,			KC_PGUP,		KC_NO,
-		FR_LBRC,		FR_RBRC,		FR_1,			FR_2,			FR_3,			KC_PSLS,										KC_END,			KC_LEFT,		KC_DOWN,		KC_RGHT,		KC_PGDN,		KC_NO,
-		KC_TRNS,		X(Percent),		FR_SCLN,		FR_0,			FR_EQL,			KC_PAST,		KC_TRNS,		KC_TRNS,		X(Inf),			X(Sup),			KC_NO,			KC_NO,			KC_NO,			KC_TRNS,
-												KC_TRNS,		KC_TRNS,		KC_TRNS,	KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
-
+		FR_LCBR,			FR_RCBR,			FR_7,				FR_8,				FR_9,				KC_PMNS,										KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		FR_LPRN,			FR_RPRN,			FR_4,				FR_5,				FR_6,				KC_PPLS,										KC_HOME,			KC_NO,				KC_UP,				KC_NO,				KC_PGUP,			KC_NO,
+		FR_LBRC,			FR_RBRC,			FR_1,				FR_2,				FR_3,				KC_PSLS,										KC_END,				KC_LEFT,			KC_DOWN,			KC_RGHT,			KC_PGDN,			KC_NO,
+		KC_TRNS,			X(Percent),			FR_SCLN,			FR_0,				FR_EQL,				KC_PAST,		KC_TRNS,		KC_TRNS,		X(Inf),				X(Sup),				KC_NO,				KC_NO,				KC_NO,				KC_TRNS,
+														KC_TRNS,			KC_TRNS,			KC_TRNS,			KC_TRNS,						KC_TRNS,			KC_TRNS,			KC_TRNS,			KC_TRNS),
 
 	[Unic] = LAYOUT(
-		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,											KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		KC_TRNS,		XP(AGrL,AGrU),	KC_TRNS,		X(E_AcAigU),	X(Registrd),	KC_TRNS,										KC_TRNS,		X(U_AcGr),		KC_TRNS,		XP(OE_L,OE_U),	KC_TRNS,		KC_TRNS,
-		KC_TRNS,		KC_TRNS,		X(Dollar),		KC_TRNS,		KC_TRNS,		KC_TRNS,										KC_TRNS,		KC_TRNS,		KC_TRNS,		X(ArrowR),		X(Micro),		KC_TRNS,
-		KC_TRNS,		KC_TRNS,		KC_TRNS,		XP(CCedL,CCedU),KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS,		X(InvQuest),	KC_TRNS,		KC_TRNS,		X(InvExcl),		KC_TRNS,
-												KC_TRNS,		KC_TRNS,		TO(Gaming),	KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
+		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,											KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		KC_TRNS,			XP(AGrL,AGrU),		KC_TRNS,			X(E_AcAigU),		X(Registrd),		KC_TRNS,										KC_TRNS,			X(U_AcGr),			KC_TRNS,			XP(OE_L,OE_U),		KC_TRNS,			KC_TRNS,
+		KC_TRNS,			KC_TRNS,			X(Dollar),			KC_TRNS,			KC_TRNS,			KC_TRNS,										KC_TRNS,			KC_TRNS,			KC_TRNS,			X(ArrowR),			X(Micro),			KC_TRNS,
+		KC_TRNS,			KC_TRNS,			KC_TRNS,			XP(CCedL,CCedU),	KC_TRNS,			KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS,			X(InvQuest),		KC_TRNS,			KC_TRNS,			X(InvExcl),			KC_TRNS,
+														KC_TRNS,			KC_TRNS,			TO(Gaming),			KC_TRNS,						KC_TRNS,			KC_TRNS,			KC_TRNS,			KC_TRNS),
 
 	[Fun] = LAYOUT(
-		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,											KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		KC_F1,			KC_F2,			KC_F3,			KC_F4,			KC_F5,			KC_F6,											KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		KC_F7,			KC_F8,			KC_F9,			KC_F10,			KC_F11,			KC_F12,											KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		KC_TRNS,		KC_TRNS,		KC_TRNS,		XP(CCedL,CCedU),KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-												KC_TRNS,		KC_TRNS,		TO(Gaming), KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
+		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,											KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		KC_F1,				KC_F2,				KC_F3,				KC_F4,				KC_F5,				KC_F6,											KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		KC_F7,				KC_F8,				KC_F9,				KC_F10,				KC_F11,				KC_F12,											KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		KC_TRNS,			KC_TRNS,			KC_TRNS,			XP(CCedL,CCedU),	KC_TRNS,			KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+														KC_TRNS,			KC_TRNS,			TO(Gaming), 		KC_TRNS,						KC_TRNS,			KC_TRNS,			KC_TRNS,			KC_TRNS),
 
 	[Media] = LAYOUT(
-		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,											KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,											KC_NO,			KC_MSTP,		KC_VOLU,		KC_MPLY,		KC_NO,			KC_NO,
-		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,											KC_NO,			KC_MPRV,		KC_VOLD,		KC_MNXT,		KC_NO,			KC_NO,
-		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_TRNS,		KC_TRNS,		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-												KC_TRNS,		KC_TRNS,		KC_TRNS,	KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
-
+		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,											KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,											KC_NO,				KC_MSTP,			KC_VOLU,			KC_MPLY,			KC_NO,				KC_NO,
+		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,											KC_NO,				KC_MPRV,			KC_VOLD,			KC_MNXT,			KC_NO,				KC_NO,
+		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,			KC_TRNS,		KC_TRNS,		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+														KC_TRNS,			KC_TRNS,			KC_TRNS,			KC_TRNS,						KC_TRNS,			KC_TRNS,			KC_TRNS,			KC_TRNS),
 
 	[Mous] = LAYOUT(
-		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,											KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,											KC_NO,			KC_BTN1,		KC_MS_U,		KC_BTN2,		KC_WH_U,		KC_NO,
-		KC_NO,			KC_NO,			KC_ACL0,		KC_ACL1,		KC_ACL2,		KC_NO,											KC_NO,			KC_MS_L,		KC_MS_D,		KC_MS_R,		KC_WH_D,		KC_NO,
-		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_TRNS,		KC_TRNS,		KC_NO,			KC_WH_L,		KC_NO,			KC_WH_R,		KC_NO,			KC_NO,
-												KC_TRNS,		KC_TRNS,		KC_TRNS,	KC_TRNS,								KC_TRNS,		KC_TRNS,		KC_TRNS,		KC_TRNS),
-
+		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,											KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,											KC_NO,				KC_BTN1,			KC_MS_U,			KC_BTN2,			KC_WH_U,			KC_NO,
+		KC_NO,				KC_NO,				KC_ACL0,			KC_ACL1,			KC_ACL2,			KC_NO,											KC_NO,				KC_MS_L,			KC_MS_D,			KC_MS_R,			KC_WH_D,			KC_NO,
+		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,			KC_TRNS,		KC_TRNS,		KC_NO,				KC_WH_L,			KC_NO,				KC_WH_R,			KC_NO,				KC_NO,
+														KC_TRNS,			KC_TRNS,			KC_TRNS,			KC_TRNS,						KC_TRNS,			KC_TRNS,			KC_TRNS,			KC_TRNS),
 
 	[Gaming] = LAYOUT(
-		KC_ESC,			FR_AMPR,		FR_EACU,		FR_DQUO,		FR_QUOT,		FR_LPRN,										KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		KC_NO,			KC_TAB,			KC_Q,			FR_Z,			KC_E,			KC_R,											KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		KC_LSFT,		KC_NO,			KC_A,			FR_S,			KC_D,			KC_F,											KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-		KC_LCTL,		KC_LSFT,		KC_Z,			FR_X,			KC_C,			KC_V,			KC_TRNS,		KC_TRNS,		KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,			KC_NO,
-												KC_LALT,		KC_LGUI,		KC_NO,		KC_SPC,									KC_ENT,			TO(Default),	KC_TRNS,		KC_NO),
+		KC_ESC,				FR_AMPR,			FR_EACU,			FR_DQUO,			FR_QUOT,			FR_LPRN,										KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		KC_NO,				KC_TAB,				KC_Q,				FR_Z,				KC_E,				KC_R,											KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		KC_LSFT,			KC_NO,				KC_A,				FR_S,				KC_D,				KC_F,											KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+		KC_LCTL,			KC_LSFT,			KC_Z,				FR_X,				KC_C,				KC_V,			KC_TRNS,		KC_TRNS,		KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,				KC_NO,
+														KC_LALT,			KC_LGUI,			KC_NO,				KC_SPC,							KC_ENT,				TO(Default),		KC_TRNS,			KC_NO),
 };
 
 
