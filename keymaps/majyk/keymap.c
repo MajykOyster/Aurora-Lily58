@@ -93,7 +93,7 @@ enum {
 
 // Combos
 const uint16_t PROGMEM combo1[] = {FR_Q, FR_W, COMBO_END};
-const uint16_t PROGMEM combo2[] = {FR_M, FR_EXLM, COMBO_END};
+const uint16_t PROGMEM combo2[] = {FR_M, XP(Excl,BkSla), COMBO_END};
 const uint16_t PROGMEM combo3[] = {FR_A, FR_E, COMBO_END};
 const uint16_t PROGMEM combo4[] = {FR_O, FR_E, COMBO_END};
 
