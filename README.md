@@ -14,4 +14,4 @@ To-do list :
 - tuning the Cirque circle trackpad
 - find something better to do with the screens
 
-![index](https://user-images.githubusercontent.com/16047781/221425712-87ea431c-c697-41d7-818a-4a0463147dad.svg)
+![index](https://user-images.githubusercontent.com/16047781/221437735-d418e519-0151-4d3c-b862-fd7b9ea7317f.png)
