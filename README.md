@@ -14,3 +14,5 @@ To-do list :
 - tuning the Cirque circle trackpad
 - finish emptying numrow except for games, so I can switch to a 3 row keyboard for most applications
 - find something better to do with the screens
+
+![index](https://user-images.githubusercontent.com/16047781/221425712-87ea431c-c697-41d7-818a-4a0463147dad.svg)
