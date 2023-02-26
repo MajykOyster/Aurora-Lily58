@@ -1,7 +1,7 @@
 # Aurora-Lily58
 
 QMK configuration for my LiLy58, with a few twists :
-- Frech Azerty layout base
+- French Azerty layout base
 - Unicode usage for French specific special characters and more
 - Use of combos for some characters (Æ, Œ, A and P)
 - heavy usage of layers to minimise numrow usage
