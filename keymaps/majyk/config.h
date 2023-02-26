@@ -16,11 +16,13 @@
 
 #pragma once
 
+#define MASTER_RIGHT
+
 #define COMBO_COUNT 4
 
 // Tapping term
 
-#define TAPPING_TERM 300
+#define TAPPING_TERM 200
 
 // `SPLIT_HAND_PIN` can currently be defined in `info.json`,
 // but can't yet be given a value
@@ -139,3 +141,6 @@
 #define ENABLE_RGB_MATRIX_MULTISPLASH						// Full gradient & value pulse away from multiple key hits then fades value out
 #define ENABLE_RGB_MATRIX_SOLID_SPLASH						// Hue & value pulse away from a single key hit then fades value out
 #define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH				// Hue & value pulse away from multiple key hits then fades value out
+
+// default
+#define RGBLIGHT_DEFAULT_MODE ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
